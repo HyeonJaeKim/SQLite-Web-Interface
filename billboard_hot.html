@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Billboard Hot 100</title>
+      <link href="asg5_shk594_style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <h3>Billboard Hot 100</h3>
+      <form action='asg5_shk594_python.py' method='POST'>
+          <a href='https://data.world/kcmillersean/billboard-hot-100-1958-2017'>Source URL</a>
+          <p>The Billboard Hot 100 is the industry standard music ranking chart in the United States. The data lists the weekly top 100 singles from 8/2/1958 and 12/28/2018. This data is important because it can be used to measure the performance and popularity of performers and to make predictions about the music industry's future. By visiting my site, users can display the data based on the year, order, sort, and number of records.</p>
+
+          <p>Display all or select?</p>
+          <select name='display'>
+              <option value='Select'>Select</option>
+              <option>All</option>
+          </select>
+
+          <p>Order by?</p>
+          <select name='order'>
+              <option value='Song'>Song</option>
+              <option value='Performer'>Performer</option>
+              <option value='Peak_Position'>Peak_Position</option>
+              <option value='Week_Position'>Week_Position</option>
+              <option value='Weeks_On_Chart'>Weeks_On_Chart</option>
+          </select>
+
+          <p>Descending or Ascending?</p>
+          <select name='sort'>
+              <option value='DESC'>Descending</option>
+              <option value='ASC'>Ascending</option>
+          </select>
+
+          <p>Year (1958 to 2018)?</p>
+          <input type='number' name='year' min='1958' max='2018'>
+
+          <p>How many records do you want to see?</p>
+          <select name='limit'>
+              <option value='5'>5</option>
+              <option value='10'>10</option>
+              <option value='15'>15</option>
+              <option value='20'>20</option>
+          </select>
+          <hr />
+          <input type='submit' value='Submit'>
+          <input type='reset' value='Reset'>
+      </form>
+  </body>
+</html>

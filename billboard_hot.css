@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    font-family: 'Lucinda Console', monospace;
+    font-size: 100%;
+    color: black;
+}
+#header {
+    background-color: #445261;
+    color: white;
+    font-size: 200%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#middle {
+    width: 80%;
+    margin: auto;
+}
+p {
+    color: black;
+    line-height: 2;
+}
+table, th, td {
+    border: 1px solid black;
+}
+tr, td {
+    font-size: 100%
+}
+
+#footer {
+    clear: both;
+    background-color: #445261;
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
